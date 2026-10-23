@@ -24,13 +24,7 @@
       "position": "Treasurer",
       "photo": "assets/treas.jpeg",
       "bio": "Replace with a short introduction."
-    },
-		{
-			"name": "Queenie Medina",
-			"position": "Auditor",
-      "photo": "",
-      "bio": "Replace with a short introduction."
-		}
+    }
   ],
   "platforms": [
     {
