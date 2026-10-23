@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#b94d1c">
+  <meta name="description" content="Meet SPARK Partylist, explore our team and campaign platforms.">
+  <title>SPARK Partylist | CVE Colleges Inc.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="SPARK Partylist home">
+      <span class="brand-mark">✦</span>
+      <span><small>CVE COLLEGES INC.</small><strong>SPARK PARTYLIST</strong></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="mainNav">
+      <a href="#team">Our Team</a><a href="#platforms">Platforms</a><a href="#pubmats">Pubmats</a>
+      <a class="nav-cta" href="#connect">Connect</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">CVE COLLEGES INC. · STUDENT LEADERSHIP</p>
+        <h1>LET YOUR<br><span>SPARK</span> SHINE.</h1>
+        <p class="hero-copy">One team. Many voices. A brighter campus future.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#team">Meet the team <span>↘</span></a>
+          <a class="button button-outline" href="#platforms">Explore our platforms</a>
+        </div>
+      </div>
+      <div class="hero-tag"><span class="spark-dot"></span> THE SPARK TEAM</div>
+    </section>
+
+    <section class="intro section-wrap">
+      <p class="eyebrow orange">WHO WE ARE</p>
+      <h2>Leadership that starts <em>with you.</em></h2>
+      <p class="section-lead">We are SPARK Partylist. Get to know the people behind the campaign, explore our ideas, and see the materials we share with our community.</p>
+    </section>
+
+    <section class="team-section" id="team">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow orange">THE PEOPLE BEHIND SPARK</p><h2>Meet our team.</h2></div>
+          <p>Add candidate names, positions, and individual photos in <code>data.json</code>.</p>
+        </div>
+        <div class="team-grid" id="teamGrid"></div>
+      </div>
+    </section>
+
+    <section class="platform-section" id="platforms">
+      <div class="section-wrap">
+        <p class="eyebrow gold">OUR COMMITMENT</p>
+        <h2>Ideas into action.</h2>
+        <p class="section-lead">Replace these starter cards with your official campaign platforms and promises.</p>
+        <div class="platform-grid" id="platformGrid"></div>
+      </div>
+    </section>
+
+    <section class="pubmat-section" id="pubmats">
+      <div class="section-wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow orange">FROM OUR CAMPAIGN</p><h2>Our pubmats.</h2></div>
+          <p>Facebook graphics can also live here. Add image files to <code>assets/</code> and list them in <code>data.json</code>.</p>
+        </div>
+        <div class="pubmat-grid" id="pubmatGrid"></div>
+      </div>
+    </section>
+
+    <section class="connect-section" id="connect">
+      <div class="connect-card">
+        <div>
+          <p class="eyebrow gold">STAY CONNECTED</p>
+          <h2>Keep the SPARK alive.</h2>
+          <p>Follow the official campaign page for announcements, pubmats, and updates.</p>
+          <a class="button button-light" id="facebookLink" href="#" target="_blank" rel="noopener">Visit our Facebook page ↗</a>
+        </div>
+        <div class="qr-panel">
+          <div id="qrCode" class="qr-placeholder">QR</div>
+          <strong>SCAN TO VISIT</strong>
+          <small>Once published, this QR code points to this website.</small>
+          <button class="text-button" id="downloadQr" type="button">Download QR code</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">✦</span><span><small>CVE COLLEGES INC.</small><strong>SPARK PARTYLIST</strong></span></a>
+    <p>Made for the SPARK community.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

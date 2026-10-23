@@ -1,0 +1,50 @@
+{
+  "facebookUrl": "https://www.facebook.com/",
+  "candidates": [
+    {
+      "name": "Add Candidate Name",
+      "position": "Party-list President",
+      "photo": "",
+      "bio": "Replace with a short introduction."
+    },
+    {
+      "name": "Add Candidate Name",
+      "position": "Vice President",
+      "photo": "",
+      "bio": "Replace with a short introduction."
+    },
+    {
+      "name": "Add Candidate Name",
+      "position": "Secretary",
+      "photo": "",
+      "bio": "Replace with a short introduction."
+    },
+    {
+      "name": "Add Candidate Name",
+      "position": "Treasurer",
+      "photo": "",
+      "bio": "Replace with a short introduction."
+    }
+  ],
+  "platforms": [
+    {
+      "title": "Student Voice",
+      "text": "Describe how your team will listen to students and represent their concerns."
+    },
+    {
+      "title": "Campus Community",
+      "text": "Describe activities or initiatives that bring students together."
+    },
+    {
+      "title": "Action & Transparency",
+      "text": "Explain how you will share updates and be accountable for your work."
+    }
+  ],
+  "pubmats": [
+    {
+      "title": "SPARK Team Photo",
+      "image": "assets/spark-team.jpeg",
+      "description": "The team photo used as the campaign website's hero background."
+    }
+  ]
+}
