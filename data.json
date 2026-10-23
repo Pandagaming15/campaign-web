@@ -2,27 +2,27 @@
   "facebookUrl": "https://www.facebook.com/",
   "candidates": [
     {
-      "name": "Add Candidate Name",
-      "position": "Party-list President",
-      "photo": "",
-      "bio": "Replace with a short introduction."
+      "name": "Kyle Airon P. Laroza",
+      "position": "President",
+      "photo": "assets/pres.jpeg",
+      "bio": "Dating lulong ngayon ay tutulong."
     },
     {
-      "name": "Add Candidate Name",
+      "name": "Jhenna Fromarejo",
       "position": "Vice President",
-      "photo": "",
+      "photo": "assets/vp.jpeg",
       "bio": "Replace with a short introduction."
     },
     {
-      "name": "Add Candidate Name",
+      "name": "Justine Ann Panergo",
       "position": "Secretary",
-      "photo": "",
+      "photo": "assets/sec.jpeg",
       "bio": "Replace with a short introduction."
     },
     {
-      "name": "Add Candidate Name",
+      "name": "Gilian Lei Villaluz",
       "position": "Treasurer",
-      "photo": "",
+      "photo": "assets/treas.jpeg",
       "bio": "Replace with a short introduction."
     }
   ],
